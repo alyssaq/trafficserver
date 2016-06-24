@@ -7495,6 +7495,7 @@ HttpSM::set_next_state()
 
   case HttpTransact::SM_ACTION_CONTINUE: {
     ink_release_assert(!"Not implemented");
+    break;
   }
 
   default: {

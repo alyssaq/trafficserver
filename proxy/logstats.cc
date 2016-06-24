@@ -1517,6 +1517,7 @@ parse_log_buff(LogBufferHeader *buf_header, bool summary = false)
             update_counter(totals.content.application.javascript, size);
             if (o_stats != NULL)
               update_counter(o_stats->content.application.javascript, size);
+            break;
           case X_JA_AS_INT:
             tok_len = 24;
             update_counter(totals.content.application.javascript, size);
